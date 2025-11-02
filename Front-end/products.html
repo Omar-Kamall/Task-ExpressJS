@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Product Dashboard</div>
+        <div class="nav-links">
+            <a href="dashboard.html" class="nav-link">Add Product</a>
+            <button id="logout-btn" class="btn-logout">Logout</button>
+        </div>
+    </nav>
+
+    <div class="products-container">
+        <div class="products-header">
+            <h2>Products List</h2>
+            <div class="search-box">
+                <input type="text" id="search-products" placeholder="Search products...">
+            </div>
+        </div>
+        <div id="products-grid" class="products-grid">
+            <!-- Products will be added here dynamically -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
